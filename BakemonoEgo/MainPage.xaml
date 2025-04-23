@@ -28,7 +28,7 @@
                 x:Name="NavBtn"
                 Text="Start here!" 
                 SemanticProperties.Hint="Let's you start the personality test"
-                Clicked="OnCounterClicked"
+                Clicked="NavigateToQuestion1_Clicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>

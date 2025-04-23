@@ -2,18 +2,14 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
 
         public MainPage()
         {
             InitializeComponent();
         }
-
-        private void OnCounterClicked(object sender, EventArgs e)
+        private async void NavigateToQuestion1_Clicked(object sender, EventArgs e)
         {
-            
-
-            SemanticScreenReader.Announce(NavBtn.Text);
+            await Shell.Current.GoToAsync(nameof(Views.Question1));
         }
     }
 
