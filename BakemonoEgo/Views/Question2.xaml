@@ -5,8 +5,43 @@
              Title="Question2">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Suddenly a small, glimmering light catches your eye in the distance. You push forward, fighting your way through the overgrown path. As you reach the source of the light, you realize it’s a little spirit floating above the ground. How do you react?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Button
+             x:Name="A1"
+             Text="I am mesmerized by its beauty. I want to go closer." 
+             SemanticProperties.Hint="Let's you navigate to the next question"
+             Clicked="NavigateToQuestion3_Clicked"
+             HorizontalOptions="Fill" />
+
+        <Button
+             x:Name="A2"
+             Text="This doesn’t look right. Is this forest enchanted? I should hide." 
+             SemanticProperties.Hint="Let's you navigate to the next question"
+             Clicked="NavigateToQuestion3_Clicked"
+             HorizontalOptions="Fill" />
+
+        <Button
+             x:Name="A3"
+             Text="What if it’s a ghost? I should run, but I can’t turn back. I’m scared." 
+             SemanticProperties.Hint="Let's you navigate to the next question"
+             Clicked="NavigateToQuestion3_Clicked"
+             HorizontalOptions="Fill" />
+
+        <Button
+             x:Name="A4"
+             Text="I try to approach it and talk to it. Maybe it can help." 
+             SemanticProperties.Hint="Let's you navigate to the next question"
+             Clicked="NavigateToQuestion3_Clicked"
+             HorizontalOptions="Fill" />
+
+        <Button
+             x:Name="A5"
+             Text="It could be a fen fire. I must remain cautious and survey the area." 
+             SemanticProperties.Hint="Let's you navigate to the next question"
+             Clicked="NavigateToQuestion3_Clicked"
+             HorizontalOptions="Fill" />
     </VerticalStackLayout>
 </ContentPage>

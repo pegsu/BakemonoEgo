@@ -14,6 +14,9 @@
             Routing.RegisterRoute(nameof(Views.Question5), typeof(Views.Question5));
             Routing.RegisterRoute(nameof(Views.Question6), typeof(Views.Question6));
             Routing.RegisterRoute(nameof(Views.Question7), typeof(Views.Question7));
+            Routing.RegisterRoute(nameof(Views.Question8), typeof(Views.Question8));
+            Routing.RegisterRoute(nameof(Views.Question9), typeof(Views.Question9));
+            Routing.RegisterRoute(nameof(Views.Results), typeof(Views.Results));
         }
     }
 }

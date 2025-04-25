@@ -5,8 +5,43 @@
              Title="Question3">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="While you ponder, the spirit notices you. It only takes a split second for it to appear right in front of you. You’re startled, but the spirit doesn’t want to harm you. It inspects you carefully and dances around you. Then, like an echo, you hear “follow me” inside your head. As the spirit starts to drift away, you begin to move. How do you feel?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Button
+              x:Name="A1"
+              Text="This is the help that I had hoped for. I follow it optimistically. I’m sure it will help me find my way home." 
+              SemanticProperties.Hint="Let's you navigate to the next question"
+              Clicked="NavigateToQuestion4_Clicked"
+              HorizontalOptions="Fill" />
+
+        <Button
+              x:Name="A2"
+              Text="I am unsure if I can trust it, but I follow reluctantly. There’s no other option. " 
+              SemanticProperties.Hint="Let's you navigate to the next question"
+              Clicked="NavigateToQuestion4_Clicked"
+              HorizontalOptions="Fill" />
+
+        <Button
+              x:Name="A3"
+              Text="The spirit seems to be of a kind nature. Maybe I can befriend it and learn more about this forest." 
+              SemanticProperties.Hint="Let's you navigate to the next question"
+              Clicked="NavigateToQuestion4_Clicked"
+              HorizontalOptions="Fill" />
+
+        <Button
+              x:Name="A4"
+              Text="I keep my distance but follow. It’s better to be safe than sorry." 
+              SemanticProperties.Hint="Let's you navigate to the next question"
+              Clicked="NavigateToQuestion4_Clicked"
+              HorizontalOptions="Fill" />
+
+        <Button
+              x:Name="A5"
+              Text="Why would it want to help me? This might be a trick. I follow, but I brace myself for a fight in case things go wrong." 
+              SemanticProperties.Hint="Let's you navigate to the next question"
+              Clicked="NavigateToQuestion4_Clicked"
+              HorizontalOptions="Fill" />
     </VerticalStackLayout>
 </ContentPage>
