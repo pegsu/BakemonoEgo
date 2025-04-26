@@ -5,8 +5,43 @@
              Title="Question5">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="The spirit continues to guide you along a small stream of water that erupts from the spring. After considerable time you notice a structure in the distance. Ancient ruins lay before you. As you walk through them you can’t help but to imagine the civilisation that once dwelled here. How did they live? And if you could choose, how would you want to live your life?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Button
+            x:Name="A1"
+            Text="I’d like to live in a buzzling city. There would be adventures around every corner. It would never get boring." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion6_Clicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            x:Name="A2"
+            Text="Somewhere close to my family or friends. I don’t like being lonely and I appreciate the comfort my home gives me." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion6_Clicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            x:Name="A3"
+            Text="I’d like to live in a luxurious penthouse. The view would be amazing." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion6_Clicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            x:Name="A4"
+            Text="A small cottage somewhere near the forest would be nice. I like peace and quiet." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion6_Clicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            x:Name="A5"
+            Text="In a castle on a hill where everything I’d lay my eyes on would belong to me." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion6_Clicked"
+            HorizontalOptions="Fill" />
     </VerticalStackLayout>
 </ContentPage>

@@ -6,4 +6,9 @@ public partial class Question6 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void NavigateToQuestion7_Clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(Views.Question7));
+    }
 }

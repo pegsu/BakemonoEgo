@@ -5,8 +5,50 @@
              Title="Question6">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Could it be? It seems to get brighter behind the ruins. You start running as you realize this might be the edge of the forest. However, the spirit rushed to abruptly stop you. Before you lies a deep chasm. The ruins were built into a cliff. One wrong step, and you could have fallen. What does this make you think?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Button
+            x:Name="A1"
+            Text="I should be more careful and less impulsive in the future." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion7_Clicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            x:Name="A2"
+            Text="The hight doesn’t scare me. I admire the cliffs." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion7_Clicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            x:Name="A3"
+            Text="Sometimes it’s safer in the dark than in the light." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion7_Clicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            x:Name="A4"
+            Text="I’m thankful that I can always rely on a friend to help me." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion7_Clicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            x:Name="A5"
+            Text="This could’ve gone very wrong. I cling to a tree and feel scared." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion7_Clicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            x:Name="A6"
+            Text="I brush it off as if it was nothing, even if I might feel different on the inside." 
+            SemanticProperties.Hint="Let's you navigate to the next question"
+            Clicked="NavigateToQuestion7_Clicked"
+            HorizontalOptions="Fill" />
     </VerticalStackLayout>
 </ContentPage>
