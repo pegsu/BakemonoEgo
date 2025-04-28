@@ -23,7 +23,8 @@ Begonnen hat das Projekt mit Brainstorming an Tag 1. Fuer die Praesentation mein
 
 ![Moodboard von BakemonoEgo](https://github.com/pegsu/BakemonoEgo/blob/main/BakemonoEgo/Resources/Images/bemoodboard.png)
 
-Mein Dozent empfahl mir .NET MAUI, weshalb ich mich fuer dieses Framework entschieden habe. Nach Zulassung des Projekts begann ich die Recherche. Schluesselfragen die ich mir gestellt habe waren:
+Mein Dozent empfahl mir .NET MAUI, weshalb ich mich fuer dieses Framework entschieden habe. Nach Zulassung des Projekts begann ich mit der Recherche. 
+**Schluesselfragen die ich mir gestellt habe waren:**
 
 Was ist .NET MAUI?
 Was ist XAML?
@@ -35,7 +36,7 @@ Wie funktioniert die Ereignisbehandlung in .NET MAUI mit XAML und der CodeBehind
 Was sind Content-Pages?
 Wie style ich in .NET MAUI?
 
-Weitere tiefgehende Fragen, mit denen ich mich aufgrund meiner Projektstruktur befassen musste, waren:
+**Weitere tiefgehende Fragen, mit denen ich mich aufgrund meiner Projektstruktur befassen musste, waren:**
 
 Was sind XAML-Namespaces?
 Wie registriere ich eine Route?
@@ -46,4 +47,11 @@ Am zweiten Tag meines Projekts habe ich die Kurse [Erstellen Sie mobile und Desk
 
 An Tag drei habe ich mit Hilfe eines Dozenten das Git Problem loesen koennen. Nach einigem Hin und Her stellte es sich heraus, dass lediglich meine Windows PowerShell Version veraltet war und geupdated werden musste. Im Anschluss gingen saemtliche adds, commits und pushes problemlos. Im Anschluss habe ich hauptsaechlich die Projektstruktur untersucht und versucht die Zusammenhaenge der verschiedenen Dateien zu verstehen. 
 
-Am vierten Tag begann ich mit dem eigentlichen coden. Ich habe die ersten Content-Pages meines Programs angelegt. Ich habe alle Seiten der App, mit Aussnahme der Main-Page, in einen Ordner namens "Views" gelegt. Dann habe ich in der Datei AppShell.xaml den Namespace `xmlns:views="clr-namespace:BakemonoEgo.Views"` erstellt und in der Datei AppShell.xmal.cs die entsprechenden Routes der Content-Pages registriert. 
+Am vierten Tag begann ich mit dem eigentlichen coden. Ich habe die Content-Pages meines Programs angelegt. Alle Seiten der App, mit Aussnahme der Main-Page, sind in einem Ordner namens "Views" zu finden. Dann habe ich in der Datei AppShell.xaml den Namespace `xmlns:views="clr-namespace:BakemonoEgo.Views"` erstellt und in der Datei AppShell.xmal.cs die entsprechenden Routes der Content-Pages registriert. Fuer diesen kompletten Schritt habe ich das Tutorial [Building Apps with XAML and .NET MAUI: Navigate Between Screens][https://learn.microsoft.com/en-us/shows/building-apps-with-xaml-and-dotnet-maui/navigate-between-screens-building-apps-with-xaml-and-dotnet-maui] befolgt.
+
+Nachdem ich am vierten Tag die Content-Pages angelegt hatte, begann ich am fuenften Tag die Seiten mit Informationen zu befuellen. Neben der Main Page gibt es insgesamt neun "Question-Seiten" und sechs antwortabhaengige "Result-Seiten". Am fuenften Tag begann ich ausserdem mit dem programmieren der Count-Logik, die ich fuer die Auswertung der Fragen benoetige. Ich habe die Auswertung folgendermassen geloest:
+
+Zuerst habe ich eine public static Klasse mit dem Namen "CountTracking" angelegt. In dieser wird eine Property public static int namens MyCount angelegt, welche mit get; und set; Werte ausliest und anpasst.
+Im Anschluss habe ich eine Klasse mit dem Namen "Result" angelegt. In dieser befindet sich die Kern-Logik fuer die Auswahl der Benutzerdefinierten Resultate. Die Variable int count = CountTracking.MyCount nimmt den Zaehlwert an, der in CountTracking gespeichert wird.
+Dann wird je nach Wert von Count entschieden, welches der if / else if / else statements ausgefuehrt wird.
+Fuer count <= 10 ist das Resultat "Bird", fuer <= 20 ist es "Cat", fuer <= 30 ist es "Dog", fuer <= 40 ist es "Racoon", fuer <= 50 ist es "Fox" und fuer alles >= 51 ist es "Badger".
