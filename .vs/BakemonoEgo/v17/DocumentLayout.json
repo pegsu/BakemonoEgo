@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\resultbadger.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\resultbadger.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\resultracoon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\resultracoon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -23,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\resultbird.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\resultbadger.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\resultbadger.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ResultBadger.xaml",
               "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultBadger.xaml",
               "RelativeDocumentMoniker": "BakemonoEgo\\Views\\ResultBadger.xaml",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ResultRacoon.xaml",
               "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultRacoon.xaml",
               "RelativeDocumentMoniker": "BakemonoEgo\\Views\\ResultRacoon.xaml",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ResultFox.xaml",
               "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultFox.xaml",
               "RelativeDocumentMoniker": "BakemonoEgo\\Views\\ResultFox.xaml",
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ResultDog.xaml",
               "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultDog.xaml",
               "RelativeDocumentMoniker": "BakemonoEgo\\Views\\ResultDog.xaml",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ResultCat.xaml",
               "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultCat.xaml",
               "RelativeDocumentMoniker": "BakemonoEgo\\Views\\ResultCat.xaml",
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ResultBird.xaml",
               "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultBird.xaml",
               "RelativeDocumentMoniker": "BakemonoEgo\\Views\\ResultBird.xaml",
