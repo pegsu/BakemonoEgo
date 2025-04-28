@@ -60,12 +60,12 @@ Ein groesseres Problem auf das ich gestossen bin war, dass ich nicht genau wusst
 Ein Dozent hat mir am sechsten Tag des Projektes damit geholfen. Die Button Elemente habe ich bereits im Voraus mit xName="" A1 bis A6 genannt.
 
 ```ruby
-if ((sender as Button).FindByName("A1")) // Der erste Loesungsansatz meines Dozentes
+if ((sender as Button).FindByName("A1")) / Der erste Loesungsansatz meines Dozentes /
  {
      CountTracking.MyCount += 1;
      await Shell.Current.GoToAsync(nameof(Views.Question2));
  }
- else if (sender is Button A2) // Mein erster Loesungsansatz
+ else if (sender is Button A2) / Mein erster Loesungsansatz /
  {
      CountTracking.MyCount += 2;
      await Shell.Current.GoToAsync(nameof(Views.Question2));
@@ -126,3 +126,16 @@ else
 ```
 
 Es war also ganz einfach mit den Operatoren == und as zu loesen.
+
+Die restliche Zeit des sechsten Tages habe ich zum stylen der Benutzeroberflaeche genutzt. Die Standart-Benutzeroberflaeche der Main-Page in .NET MAUI sieht folgendermassen aus:
+
+![Standart .NET MAUI UI](https://github.com/pegsu/BakemonoEgo/blob/main/ReadMeAssets/mainpagestandard.png)
+
+Nach meinem Styling sah die Main Page so aus:
+
+![BakemonoEgo Main Page](https://github.com/pegsu/BakemonoEgo/blob/main/ReadMeAssets/bakemonomainpage.png)
+
+Und die "Question-Seiten" wie folgt:
+
+![BakemonoEgo Question Page](https://github.com/pegsu/BakemonoEgo/blob/main/ReadMeAssets/bakemonoquestionpage.png)
+
