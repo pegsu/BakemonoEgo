@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question9.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question9.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question8.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question8.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question7.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question7.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question6.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question6.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\resultbird.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\resultbird.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,143 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\MainPage.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\MainPage.xaml",
-              "RelativeToolTip": "BakemonoEgo\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T16:33:21.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Resources\\Styles\\Styles.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\Resources\\Styles\\Styles.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Resources\\Styles\\Styles.xaml",
-              "RelativeToolTip": "BakemonoEgo\\Resources\\Styles\\Styles.xaml",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAIwMAAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T16:33:05.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Question9.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question9.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\Views\\Question9.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question9.xaml",
-              "RelativeToolTip": "BakemonoEgo\\Views\\Question9.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Title": "ResultBird.xaml",
+              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultBird.xaml",
+              "RelativeDocumentMoniker": "BakemonoEgo\\Views\\ResultBird.xaml",
+              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultBird.xaml",
+              "RelativeToolTip": "BakemonoEgo\\Views\\ResultBird.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T15:02:23.387Z",
+              "WhenOpened": "2025-04-28T17:28:41.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Question8.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question8.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\Views\\Question8.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question8.xaml",
-              "RelativeToolTip": "BakemonoEgo\\Views\\Question8.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T15:02:13.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Question7.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question7.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\Views\\Question7.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question7.xaml",
-              "RelativeToolTip": "BakemonoEgo\\Views\\Question7.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T15:02:01.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Question6.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question6.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\Views\\Question6.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question6.xaml",
-              "RelativeToolTip": "BakemonoEgo\\Views\\Question6.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T15:01:49.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Question5.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question5.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\Views\\Question5.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question5.xaml*",
-              "RelativeToolTip": "BakemonoEgo\\Views\\Question5.xaml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T15:01:36.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Question4.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question4.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\Views\\Question4.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question4.xaml",
-              "RelativeToolTip": "BakemonoEgo\\Views\\Question4.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T15:01:16.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Question3.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question3.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\Views\\Question3.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question3.xaml*",
-              "RelativeToolTip": "BakemonoEgo\\Views\\Question3.xaml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T15:00:51.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Question2.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question2.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\Views\\Question2.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question2.xaml",
-              "RelativeToolTip": "BakemonoEgo\\Views\\Question2.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T15:00:04.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Question1.xaml",
               "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question1.xaml",
               "RelativeDocumentMoniker": "BakemonoEgo\\Views\\Question1.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question1.xaml*",
-              "RelativeToolTip": "BakemonoEgo\\Views\\Question1.xaml*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question1.xaml",
+              "RelativeToolTip": "BakemonoEgo\\Views\\Question1.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-28T14:40:09.846Z",
               "EditorCaption": ""

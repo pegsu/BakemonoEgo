@@ -3,10 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BakemonoEgo.Views.ResultFox"
              Title="ResultFox">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="20" MaximumWidthRequest="1200" Padding="50">
+        <Image
+            Source="placeholder.jpg"
+            HeightRequest="500"
+            Aspect="AspectFit"
+            SemanticProperties.Description="a placeholder image" 
+        />
+
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="FOX"
+            FontSize="72"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+        />
+
+        <Label 
+            Text="Lorem Ipsum"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Style="{StaticResource SubHeadline}"
+      />
     </VerticalStackLayout>
 </ContentPage>

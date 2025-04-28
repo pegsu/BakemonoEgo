@@ -5,7 +5,7 @@
              Title="ResultError">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Something went wrong"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
