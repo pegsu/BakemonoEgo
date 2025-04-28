@@ -151,12 +151,11 @@ Ausserdem koennte ich die Layouts und die seitenspezifischen einfach kopieren un
 Das haette mir wahnsinnig viel Zeit gespart.
 
 ### Weitere Quellen, die ich genutzt habe:
-
-[Die .NET MAUI Dokumentation](https://learn.microsoft.com/de-de/dotnet/maui/?view=net-maui-9.0)
-[Die offizielle Seite von .NET MAUI](https://dotnet.microsoft.com/en-us/apps/maui?WT.mc_id=friends-0000-jamont)
-[Microsoft Learn .NET MAUI](https://learn.microsoft.com/de-de/training/paths/build-apps-with-dotnet-maui/)
-[Die Serie"Building Apps with XAML and .NET MAUI"](https://learn.microsoft.com/en-us/shows/building-apps-with-xaml-and-dotnet-maui/)
-[Learn .NET MAUI - Full Course for Beginners von James Montemagno auf Youtube](https://www.youtube.com/watch?v=DuNLR_NJv8U&t=2842s)
-[Reusable Styles in your app von dotnet auf Youtube](https://www.youtube.com/watch?v=gl9--LlIeyg)
-[Customizing Borders & corners von dotnet auf Youtube](https://www.youtube.com/watch?v=Qp9_FNS24DU&t=31s)
-[Grobe Information zu Bakemono auf Wikipedia](https://de.wikipedia.org/wiki/Obake)
+1. [Die .NET MAUI Dokumentation](https://learn.microsoft.com/de-de/dotnet/maui/?view=net-maui-9.0)
+2. [Die offizielle Seite von .NET MAUI](https://dotnet.microsoft.com/en-us/apps/maui?WT.mc_id=friends-0000-jamont)
+3. [Microsoft Learn .NET MAUI](https://learn.microsoft.com/de-de/training/paths/build-apps-with-dotnet-maui/)
+4. [Die Serie"Building Apps with XAML and .NET MAUI"](https://learn.microsoft.com/en-us/shows/building-apps-with-xaml-and-dotnet-maui/)
+5. [Learn .NET MAUI - Full Course for Beginners von James Montemagno auf Youtube](https://www.youtube.com/watch?v=DuNLR_NJv8U&t=2842s)
+6. [Reusable Styles in your app von dotnet auf Youtube](https://www.youtube.com/watch?v=gl9--LlIeyg)
+7. [Customizing Borders & corners von dotnet auf Youtube](https://www.youtube.com/watch?v=Qp9_FNS24DU&t=31s)
+8. [Grobe Information zu Bakemono auf Wikipedia](https://de.wikipedia.org/wiki/Obake)
