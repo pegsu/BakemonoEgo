@@ -47,7 +47,7 @@ Am zweiten Tag meines Projekts habe ich die Kurse [Erstellen Sie mobile und Desk
 
 An Tag drei habe ich mit Hilfe eines Dozenten das Git Problem loesen koennen. Nach einigem Hin und Her stellte es sich heraus, dass lediglich meine Windows PowerShell Version veraltet war und geupdated werden musste. Im Anschluss gingen saemtliche adds, commits und pushes problemlos. Im Anschluss habe ich hauptsaechlich die Projektstruktur untersucht und versucht die Zusammenhaenge der verschiedenen Dateien zu verstehen. 
 
-Am vierten Tag begann ich mit dem eigentlichen coden. Ich habe die Content-Pages meines Programs angelegt. Alle Seiten der App, mit Aussnahme der Main-Page, sind in einem Ordner namens "Views" zu finden. Dann habe ich in der Datei AppShell.xaml den Namespace `xmlns:views="clr-namespace:BakemonoEgo.Views"` erstellt und in der Datei AppShell.xmal.cs die entsprechenden Routes der Content-Pages registriert. Fuer diesen kompletten Schritt habe ich das Tutorial [Building Apps with XAML and .NET MAUI: Navigate Between Screens][https://learn.microsoft.com/en-us/shows/building-apps-with-xaml-and-dotnet-maui/navigate-between-screens-building-apps-with-xaml-and-dotnet-maui] befolgt.
+Am vierten Tag begann ich mit dem eigentlichen coden. Ich habe die Content-Pages meines Programs angelegt. Alle Seiten der App, mit Aussnahme der Main-Page, sind in einem Ordner namens "Views" zu finden. Dann habe ich in der Datei AppShell.xaml den Namespace `xmlns:views="clr-namespace:BakemonoEgo.Views"` erstellt und in der Datei AppShell.xmal.cs die entsprechenden Routes der Content-Pages registriert. Fuer diesen kompletten Schritt habe ich das Tutorial [Building Apps with XAML and .NET MAUI: Navigate Between Screens](https://learn.microsoft.com/en-us/shows/building-apps-with-xaml-and-dotnet-maui/navigate-between-screens-building-apps-with-xaml-and-dotnet-maui) befolgt.
 
 Nachdem ich am vierten Tag die Content-Pages angelegt hatte, begann ich am fuenften Tag die Seiten mit Informationen zu befuellen. Neben der Main Page gibt es insgesamt neun "Question-Seiten" und sechs antwortabhaengige "Result-Seiten". Am fuenften Tag begann ich ausserdem mit dem programmieren der Count-Logik, die ich fuer die Auswertung der Fragen benoetige. Ich habe die Auswertung folgendermassen geloest:
 
@@ -139,3 +139,24 @@ Und die "Question-Seiten" wie folgt:
 
 ![BakemonoEgo Question Page](https://github.com/pegsu/BakemonoEgo/blob/main/ReadMeAssets/bakemonoquestionpage.png)
 
+
+
+### Was ich in Zukunft anders machen wuerde:
+
+Das anlegen aller Content-Seiten zu Beginn des Projekts hat sich als grosse Huerde fuer das spaetere Coden herausgestellt.
+Ich habe damit angefangen, da es fuer mich relativ simpel erschien. Was ich allerdings nicht bedacht hatte war, dass ich die Logik immer wieder ueber alle Seiten hinweg testen musste.
+Erst als ein Dozent mir am sechsten Tag der Projektwoche erklaerte, was Breakpoints sind und wie man sie benutzt, konnte ich gezielt debuggen.
+Was ich zukuenftig machen wuerde ware zu Beginn eine einzige Question-Seite und mehrere Result-Seiten zu erstellen. Dadurch ware es wesentlich eifnacher zu testen, ob die count-Variable richtig aktualisiert wird und ob die Daten passend uebergeben werden.
+Ausserdem koennte ich die Layouts und die seitenspezifischen einfach kopieren und in den folgenden Seiten einfuegen ohne jedes einzelne Element auf jeder Seite immer wieder durchgehen zu muessen. 
+Das haette mir wahnsinnig viel Zeit gespart.
+
+### Weitere Quellen, die ich genutzt habe:
+
+[Die .NET MAUI Dokumentation](https://learn.microsoft.com/de-de/dotnet/maui/?view=net-maui-9.0)
+[Die offizielle Seite von .NET MAUI](https://dotnet.microsoft.com/en-us/apps/maui?WT.mc_id=friends-0000-jamont)
+[Microsoft Learn .NET MAUI](https://learn.microsoft.com/de-de/training/paths/build-apps-with-dotnet-maui/)
+[Die Serie"Building Apps with XAML and .NET MAUI"](https://learn.microsoft.com/en-us/shows/building-apps-with-xaml-and-dotnet-maui/)
+[Learn .NET MAUI - Full Course for Beginners von James Montemagno auf Youtube](https://www.youtube.com/watch?v=DuNLR_NJv8U&t=2842s)
+[Reusable Styles in your app von dotnet auf Youtube](https://www.youtube.com/watch?v=gl9--LlIeyg)
+[Customizing Borders & corners von dotnet auf Youtube](https://www.youtube.com/watch?v=Qp9_FNS24DU&t=31s)
+[Grobe Information zu Bakemono auf Wikipedia](https://de.wikipedia.org/wiki/Obake)
