@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:BakemonoEgo"
     xmlns:views="clr-namespace:BakemonoEgo.Views" 
     Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="false"
     Title="BakemonoEgo">
 
     <ShellContent

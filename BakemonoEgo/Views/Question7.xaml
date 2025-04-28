@@ -3,45 +3,53 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BakemonoEgo.Views.Question7"
              Title="Question7">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="20" MaximumWidthRequest="1200" Padding="50">
+        <Image
+             Source="placeholder.jpg"
+             HeightRequest="300"
+             Aspect="AspectFit"
+             SemanticProperties.Description="placeholder image" />
         <Label 
             Text="You follow the spirit onto a safer path. After a little while you reach an old bridge. It looks solid even if it’s made of wooden planks. The spirit protected you before, so you decide to trust it and walk onto the bridge. As you make your way to the other side you notice that more spirits in different shapes and colours start to appear. What is your initial reaction?"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            Style="{StaticResource Headline}"/>
 
-        <Button
-             x:Name="A1"
-             Text="I admire their unique beauty and am mesmerized by their appearance." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion8_Clicked"
-             HorizontalOptions="Fill" />
+        <VerticalStackLayout Spacing="10" MaximumWidthRequest="1200">
+            <Button
+                x:Name="A1"
+                Text="I admire their unique beauty and am mesmerized by their appearance." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion8_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A2"
-             Text="I greet them excitedly and am happy for the opportunity to make more friends." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion8_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A2"
+                Text="I greet them excitedly and am happy for the opportunity to make more friends." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion8_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A3"
-             Text="I am wary about the situation. What if it’s a trap? I brace myself." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion8_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A3"
+                Text="I am wary about the situation. What if it’s a trap? I brace myself." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion8_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A4"
-             Text="I smile at them but keep my distance." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion8_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A4"
+                Text="I smile at them but keep my distance." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion8_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A5"
-             Text="I hope they don’t notice me and just keep going." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion8_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A5"
+                Text="I hope they don’t notice me and just keep going." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion8_Clicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

@@ -3,52 +3,60 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BakemonoEgo.Views.Question4"
              Title="Question4">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="20" MaximumWidthRequest="1200" Padding="50">
+
+        <Image
+            Source="placeholder.jpg"
+            HeightRequest="300"
+            Aspect="AspectFit"
+            SemanticProperties.Description="placeholder image" />
         <Label 
-            Text="Following the spirit through narrow openings in the undergrowth you realise that it leads you off the path. There’s no turning back. After a while, the air feels cooler, and the ground appears to be wet. The spirit halts above a spring. After walking for so long you eagerly drink from it. As you look down, you see your face reflect in the water. What do you look like?"
+            Text="Following the spirit through narrow openings in the undergrowth you realise that it leads you off the path. There’s no turning back. After a while, the air feels cooler, and the ground appears to be wet. The spirit halts above a spring. You eagerly drink from it. As you look down, you see your face reflect in the water. What do you look like?"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            Style="{StaticResource Headline}"/>
+        <VerticalStackLayout Spacing="10" MaximumWidthRequest="1200">
+            <Button
+                x:Name="A1"
+                Text="A strong, fearless individual. " 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion5_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-           x:Name="A1"
-           Text="A strong, fearless individual. " 
-           SemanticProperties.Hint="Let's you navigate to the next question"
-           Clicked="NavigateToQuestion5_Clicked"
-           HorizontalOptions="Fill" />
+            <Button
+                x:Name="A2"
+                Text="A friendly and positive person." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion5_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-           x:Name="A2"
-           Text="A friendly and positive person." 
-           SemanticProperties.Hint="Let's you navigate to the next question"
-           Clicked="NavigateToQuestion5_Clicked"
-           HorizontalOptions="Fill" />
+            <Button
+                x:Name="A3"
+                Text="A sensitive, emotional being." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion5_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-           x:Name="A3"
-           Text="A sensitive, emotional being." 
-           SemanticProperties.Hint="Let's you navigate to the next question"
-           Clicked="NavigateToQuestion5_Clicked"
-           HorizontalOptions="Fill" />
+            <Button
+                x:Name="A4"
+                Text="A scared face, unsure of what lays ahead." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion5_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-           x:Name="A4"
-           Text="A scared face, unsure of what lays ahead." 
-           SemanticProperties.Hint="Let's you navigate to the next question"
-           Clicked="NavigateToQuestion5_Clicked"
-           HorizontalOptions="Fill" />
+            <Button
+                x:Name="A5"
+                Text="A calm and reserved character. " 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion5_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-           x:Name="A5"
-           Text="A calm and reserved character. " 
-           SemanticProperties.Hint="Let's you navigate to the next question"
-           Clicked="NavigateToQuestion5_Clicked"
-           HorizontalOptions="Fill" />
-
-        <Button
-           x:Name="A6"
-           Text="A unique and beautiful soul." 
-           SemanticProperties.Hint="Let's you navigate to the next question"
-           Clicked="NavigateToQuestion5_Clicked"
-           HorizontalOptions="Fill" /> 
+            <Button
+                x:Name="A6"
+                Text="A unique and beautiful soul." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion5_Clicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

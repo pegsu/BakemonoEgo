@@ -3,45 +3,58 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BakemonoEgo.Views.Question1"
              Title="Question 1">
-    <VerticalStackLayout>
+
+    <VerticalStackLayout Spacing="20" MaximumWidthRequest="1200" Padding="50">
+
+        <Image
+             Source="placeholder.jpg"
+             HeightRequest="300"
+             Aspect="AspectFit"
+             SemanticProperties.Description="dot net bot in a race car number eight" />
+        
         <Label 
             Text="You can’t remember how long you’ve been walking. The forest surrounding you continues to draw you in. A thick web of branches and leaves obscures every path but forward. You need to find a way out. But how?"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            Style="{StaticResource Headline}"/>
 
-        <Button
-            x:Name="A1"
-            Text="I try to remain calm. Fear and worry won’t help. I try to concentrate on the environment and focus on finding a logical solution." 
-            SemanticProperties.Hint="Let's you navigate to the next question"
-            Clicked="NavigateToQuestion2_Clicked"
-            HorizontalOptions="Fill" />
+        <VerticalStackLayout Spacing="10" MaximumWidthRequest="1200">
+            <Button
+                x:Name="A1"
+                Text="I try to remain calm. Fear and worry won’t help. I try to concentrate on the environment and focus on finding a logical solution." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion2_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-            x:Name="A2"
-            Text="My gut is always right. I rely on my senses and emotions to find a path that takes me home." 
-            SemanticProperties.Hint="Let's you navigate to the next question"
-            Clicked="NavigateToQuestion2_Clicked"
-            HorizontalOptions="Fill" />
+            <Button
+                x:Name="A2"
+                Text="My gut is always right. I rely on my senses and emotions to find a path that takes me home." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion2_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-            x:Name="A3"
-            Text="There’s no point. I’m clearly lost. All I can do is hope for a miracle." 
-            SemanticProperties.Hint="Let's you navigate to the next question"
-            Clicked="NavigateToQuestion2_Clicked"
-            HorizontalOptions="Fill" />
+            <Button
+                x:Name="A3"
+                Text="There’s no point. I’m clearly lost. All I can do is hope for a miracle." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion2_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-            x:Name="A4"
-            Text="My friends and family will have noticed that I’m missing by now. I’m sure I can wait for them to help me." 
-            SemanticProperties.Hint="Let's you navigate to the next question"
-            Clicked="NavigateToQuestion2_Clicked"
-            HorizontalOptions="Fill" />
+            <Button
+                x:Name="A4"
+                Text="My friends and family will have noticed that I’m missing by now. I’m sure I can wait for them to help me." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion2_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-            x:Name="A5"
-            Text="I believe in my willpower and strength. If I push myself hard enough and never give up, I will find a way." 
-            SemanticProperties.Hint="Let's you navigate to the next question"
-            Clicked="NavigateToQuestion2_Clicked"
-            HorizontalOptions="Fill" />
+            <Button
+                x:Name="A5"
+                Text="I believe in my willpower and strength. If I push myself hard enough and never give up, I will find a way." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion2_Clicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+
+        
     </VerticalStackLayout>
 </ContentPage>

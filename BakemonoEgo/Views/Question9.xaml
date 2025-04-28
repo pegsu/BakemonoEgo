@@ -3,17 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BakemonoEgo.Views.Question9"
              Title="Question9">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="20" MaximumWidthRequest="1200" Padding="50">
+        <Image
+        Source="placeholder.jpg"
+        HeightRequest="300"
+        Aspect="AspectFit"
+        SemanticProperties.Description="placeholder image" />
         <Label 
             Text="More and more of the spirits gather around you. They seem joyful and dance. You wonder what this is about, when all the sudden you’re picked up and lifted into the air. You float higher and higher, and soon the world seems small beneath you. However, you are safe. The spirits carry you. And you know you’ll find your way home. In that exact moment, you feel something inside you shifting. It feels like it’s always been there, just hidden. Suddenly the way home lies in front of you clearly. You know who you are and where to go."
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            Margin="50"
+            Style="{StaticResource Headline}"/>
 
-        <Button
-            x:Name="A1"
-            Text="I am ready to find out who I truly am." 
-            SemanticProperties.Hint="Let's you navigate to your result"
-            Clicked="NavigateToResults_Clicked"
-            HorizontalOptions="Fill" />
+        <VerticalStackLayout Spacing="10" MaximumWidthRequest="1200">
+            <Button
+                 x:Name="A1"
+                 Text="I am ready to find out who I truly am." 
+                 FontSize="24"
+                 SemanticProperties.Hint="Let's you navigate to your result"
+                 Clicked="NavigateToResults_Clicked"
+                 HorizontalOptions="Fill" />
+        </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

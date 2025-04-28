@@ -3,45 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BakemonoEgo.Views.Question2"
              Title="Question2">
-    <VerticalStackLayout>
+
+    <VerticalStackLayout Spacing="20" MaximumWidthRequest="1200" Padding="50">
+        <Image
+            Source="placeholder.jpg"
+            HeightRequest="300"
+            Aspect="AspectFit"
+            SemanticProperties.Description="placeholder image" />
         <Label 
             Text="Suddenly a small, glimmering light catches your eye in the distance. You push forward, fighting your way through the overgrown path. As you reach the source of the light, you realize it’s a little spirit floating above the ground. How do you react?"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            Style="{StaticResource Headline}"/>
 
-        <Button
-             x:Name="A1"
-             Text="I am mesmerized by its beauty. I want to go closer." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion3_Clicked"
-             HorizontalOptions="Fill" />
+        <VerticalStackLayout Spacing="10" MaximumWidthRequest="1200">
+            <Button
+                x:Name="A1"
+                Text="I am mesmerized by its beauty. I want to go closer." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion3_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A2"
-             Text="This doesn’t look right. Is this forest haunted? I should hide." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion3_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A2"
+                Text="This doesn’t look right. Is this forest haunted? I should hide." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion3_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A3"
-             Text="What if it’s a ghost? I should run, but I can’t turn back. I’m scared." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion3_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A3"
+                Text="What if it’s a ghost? I should run, but I can’t turn back. I’m scared." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion3_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A4"
-             Text="I try to approach it and talk to it. Maybe it can help." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion3_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A4"
+                Text="I try to approach it and talk to it. Maybe it can help." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion3_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A5"
-             Text="It could be a will o' wisp. I must remain cautious and survey the area." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion3_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A5"
+                Text="It could be a will o' wisp. I must remain cautious and survey the area." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion3_Clicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

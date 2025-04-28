@@ -3,45 +3,53 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BakemonoEgo.Views.Question8"
              Title="Question8">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="20" MaximumWidthRequest="1200" Padding="50">
+        <Image
+            Source="placeholder.jpg"
+            HeightRequest="300"
+            Aspect="AspectFit"
+            SemanticProperties.Description="placeholder image" />
         <Label 
             Text="As you step off the bridge you realise the spirit has led you to a vast, beautiful meadow full of flowers. The forest lays behind you, freedom is ahead. Do you take a moment to admire the scenery?"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            Style="{StaticResource Headline}"/>
 
-        <Button
-             x:Name="A1"
-             Text="No, I’ve been walking for hours and I’m tired. I just want to get home." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion9_Clicked"
-             HorizontalOptions="Fill" />
+        <VerticalStackLayout Spacing="10" MaximumWidthRequest="1200">
+            <Button
+                x:Name="A1"
+                Text="No, I’ve been walking for hours and I’m tired. I just want to get home." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion9_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A2"
-             Text="Of course. I consider myself lucky. I might not see something this beautiful ever again." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion9_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A2"
+                Text="Of course. I consider myself lucky. I might not see something this beautiful ever again." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion9_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A3"
-             Text="Maybe all of this was about the route I took and the memories I made. I breathe in the fresh air and admire the flowers." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion9_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A3"
+                Text="Maybe all of this was about the route I took and the memories I made. I breathe in the fresh air and admire the flowers." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion9_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A4"
-             Text="Even if the forest lays behind me, I don’t know how to get home yet. I can’t lose my focus just yet." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion9_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A4"
+                Text="Even if the forest lays behind me, I don’t know how to get home yet. I can’t lose my focus just yet." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion9_Clicked"
+                HorizontalOptions="Fill" />
 
-        <Button
-             x:Name="A5"
-             Text="I take a moment to sit down and just be. There’s no need to rush." 
-             SemanticProperties.Hint="Let's you navigate to the next question"
-             Clicked="NavigateToQuestion9_Clicked"
-             HorizontalOptions="Fill" />
+            <Button
+                x:Name="A5"
+                Text="I take a moment to sit down and just be. There’s no need to rush." 
+                SemanticProperties.Hint="Let's you navigate to the next question"
+                Clicked="NavigateToQuestion9_Clicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
