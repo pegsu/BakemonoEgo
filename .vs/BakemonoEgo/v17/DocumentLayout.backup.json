@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\question1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\question1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|c:\\users\\kaise\\projectsources\\repos\\bakemonoego\\bakemonoego\\views\\resultbadger.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FD46F394-8720-41E3-9853-5093BFF4DB32}|BakemonoEgo\\BakemonoEgo.csproj|solutionrelative:bakemonoego\\views\\resultbadger.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,22 +32,9 @@
               "RelativeDocumentMoniker": "BakemonoEgo\\Views\\ResultBird.xaml",
               "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultBird.xaml",
               "RelativeToolTip": "BakemonoEgo\\Views\\ResultBird.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-28T17:28:41.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ResultBadger.xaml",
-              "DocumentMoniker": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultBadger.xaml",
-              "RelativeDocumentMoniker": "BakemonoEgo\\Views\\ResultBadger.xaml",
-              "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\ResultBadger.xaml",
-              "RelativeToolTip": "BakemonoEgo\\Views\\ResultBadger.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T17:27:12.15Z",
               "EditorCaption": ""
             },
             {
@@ -62,7 +45,7 @@
               "RelativeDocumentMoniker": "BakemonoEgo\\Views\\Question1.xaml",
               "ToolTip": "C:\\Users\\kaise\\projectsources\\repos\\BakemonoEgo\\BakemonoEgo\\Views\\Question1.xaml",
               "RelativeToolTip": "BakemonoEgo\\Views\\Question1.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-28T14:40:09.846Z",
               "EditorCaption": ""
