@@ -18,7 +18,7 @@
 
         <Button
              x:Name="A2"
-             Text="This doesn’t look right. Is this forest enchanted? I should hide." 
+             Text="This doesn’t look right. Is this forest haunted? I should hide." 
              SemanticProperties.Hint="Let's you navigate to the next question"
              Clicked="NavigateToQuestion3_Clicked"
              HorizontalOptions="Fill" />
@@ -39,7 +39,7 @@
 
         <Button
              x:Name="A5"
-             Text="It could be a fen fire. I must remain cautious and survey the area." 
+             Text="It could be a will o' wisp. I must remain cautious and survey the area." 
              SemanticProperties.Hint="Let's you navigate to the next question"
              Clicked="NavigateToQuestion3_Clicked"
              HorizontalOptions="Fill" />

@@ -5,7 +5,7 @@
              Title="Question6">
     <VerticalStackLayout>
         <Label 
-            Text="Could it be? It seems to get brighter behind the ruins. You start running as you realize this might be the edge of the forest. However, the spirit rushed to abruptly stop you. Before you lies a deep chasm. The ruins were built into a cliff. One wrong step, and you could have fallen. What does this make you think?"
+            Text="Could it be? It seems to get brighter behind the ruins. You start running as you realize this might be the edge of the forest. However, the spirit rushes to abruptly stop you. Before you lies a deep chasm. The ruins were built into a cliff. One wrong step, and you could have fallen. What does this make you think?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 

@@ -11,7 +11,7 @@
 
         <Button
             x:Name="A1"
-            Text="I’d like to live in a buzzling city. There would be adventures around every corner. It would never get boring." 
+            Text="I’d like to live in a bustling city. There would be adventures around every corner. It would never get boring." 
             SemanticProperties.Hint="Let's you navigate to the next question"
             Clicked="NavigateToQuestion6_Clicked"
             HorizontalOptions="Fill" />

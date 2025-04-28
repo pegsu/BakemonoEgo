@@ -14,21 +14,21 @@ namespace BakemonoEgo.Views
 
             if (count <= 10)
             {
-                await Shell.Current.GoToAsync(nameof(Views.ResultBadger));
+                await Shell.Current.GoToAsync(nameof(Views.ResultBird));
 
             }
             else if (count <= 20)
             {
-                await Shell.Current.GoToAsync(nameof(Views.ResultBird));
+                await Shell.Current.GoToAsync(nameof(Views.ResultCat));
 
             }
             else if (count <= 30)
             {
-                await Shell.Current.GoToAsync(nameof(Views.ResultCat));
+                await Shell.Current.GoToAsync(nameof(Views.ResultDog));
             }
             else if (count <= 40)
             {
-                await Shell.Current.GoToAsync(nameof(Views.ResultDog));
+                await Shell.Current.GoToAsync(nameof(Views.ResultRacoon));
             }
             else if (count <= 50)
             {
@@ -36,7 +36,7 @@ namespace BakemonoEgo.Views
             }
             else if (count >= 51)
             {
-                await Shell.Current.GoToAsync(nameof(Views.ResultRacoon));
+                await Shell.Current.GoToAsync(nameof(Views.ResultBadger));
             }
             else 
             {

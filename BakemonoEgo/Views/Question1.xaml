@@ -32,7 +32,7 @@
 
         <Button
             x:Name="A4"
-            Text="My friends and family will have noticed that I’m missing by now. I’m sure I can wait for them to help me find my way back." 
+            Text="My friends and family will have noticed that I’m missing by now. I’m sure I can wait for them to help me." 
             SemanticProperties.Hint="Let's you navigate to the next question"
             Clicked="NavigateToQuestion2_Clicked"
             HorizontalOptions="Fill" />

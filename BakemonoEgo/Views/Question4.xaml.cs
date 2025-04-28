@@ -9,32 +9,32 @@ public partial class Question4 : ContentPage
 
     private async void NavigateToQuestion5_Clicked(object sender, EventArgs e)
     {
-        if ((sender as Button) == A1)
+        if ((sender as Button) == A1) //Badger
         {
-            CountTracking.MyCount += 1;
+            CountTracking.MyCount += 10;
             await Shell.Current.GoToAsync(nameof(Views.Question5));
         }
-        else if ((sender as Button) == A2)
-        {
-            CountTracking.MyCount += 2;
-            await Shell.Current.GoToAsync(nameof(Views.Question5));
-        }
-        else if ((sender as Button) == A3)
+        else if ((sender as Button) == A2) //Dog
         {
             CountTracking.MyCount += 3;
             await Shell.Current.GoToAsync(nameof(Views.Question5));
         }
-        else if ((sender as Button) == A4)
+        else if ((sender as Button) == A3) //Cat
         {
-            CountTracking.MyCount += 4;
+            CountTracking.MyCount += 2;
             await Shell.Current.GoToAsync(nameof(Views.Question5));
         }
-        else if ((sender as Button) == A5)
+        else if ((sender as Button) == A4) //Bird
         {
-            CountTracking.MyCount += 5;
+            CountTracking.MyCount += 0;
             await Shell.Current.GoToAsync(nameof(Views.Question5));
         }
-        else if ((sender as Button) == A6) 
+        else if ((sender as Button) == A5) //Fox
+        {
+            CountTracking.MyCount += 7;
+            await Shell.Current.GoToAsync(nameof(Views.Question5));
+        }
+        else if ((sender as Button) == A6) //Racoon
         {
             CountTracking.MyCount += 5;
             await Shell.Current.GoToAsync(nameof(Views.Question5));

@@ -5,7 +5,7 @@
              Title="Question8">
     <VerticalStackLayout>
         <Label 
-            Text="As you step of the bridge you realise the spirit has led you to a vast, beautiful meadow full of flowers. The forest lays behind you, freedom is ahead. Do you take a moment to admire the scenery?"
+            Text="As you step off the bridge you realise the spirit has led you to a vast, beautiful meadow full of flowers. The forest lays behind you, freedom is ahead. Do you take a moment to admire the scenery?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
