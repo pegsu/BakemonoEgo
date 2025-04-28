@@ -55,3 +55,74 @@ Zuerst habe ich eine public static Klasse mit dem Namen "CountTracking" angelegt
 Im Anschluss habe ich eine Klasse mit dem Namen "Result" angelegt. In dieser befindet sich die Kern-Logik fuer die Auswahl der Benutzerdefinierten Resultate. Die Variable int count = CountTracking.MyCount nimmt den Zaehlwert an, der in CountTracking gespeichert wird.
 Dann wird je nach Wert von Count entschieden, welches der if / else if / else statements ausgefuehrt wird.
 Fuer count <= 10 ist das Resultat "Bird", fuer <= 20 ist es "Cat", fuer <= 30 ist es "Dog", fuer <= 40 ist es "Racoon", fuer <= 50 ist es "Fox" und fuer alles >= 51 ist es "Badger".
+
+Ein groesseres Problem auf das ich gestossen bin war, dass ich nicht genau wusste, wie man auf einzelne Buttons bzw. Elemente zugreift. Dadurch hat count immer 0 ergeben, da keine Werte uebermittelt wurden, wodurch das Resultat immer "Bird" ergeben hat.
+Ein Dozent hat mir am sechsten Tag des Projektes damit geholfen. Die Button Elemente habe ich bereits im Voraus mit xName="" A1 bis A6 genannt.
+
+```ruby
+if ((sender as Button).FindByName("A1")) // Der erste Loesungsansatz meines Dozentes
+ {
+     CountTracking.MyCount += 1;
+     await Shell.Current.GoToAsync(nameof(Views.Question2));
+ }
+ else if (sender is Button A2) // Mein erster Loesungsansatz
+ {
+     CountTracking.MyCount += 2;
+     await Shell.Current.GoToAsync(nameof(Views.Question2));
+ }
+ else if (sender is Button A3)
+ {
+     CountTracking.MyCount += 3;
+     await Shell.Current.GoToAsync(nameof(Views.Question2));
+ }
+ else if (sender is Button A4)
+ {
+     CountTracking.MyCount += 4;
+     await Shell.Current.GoToAsync(nameof(Views.Question2));
+ }
+ else if (sender is Button A5)
+ {
+     CountTracking.MyCount += 5;
+     await Shell.Current.GoToAsync(nameof(Views.Question2));
+ }
+ else
+ {
+     await Shell.Current.GoToAsync(nameof(Views.ResultError));
+ }
+```
+
+Es stellte sich heraus, dass es wesentlich einfacher war, als erwartet:
+
+```ruby
+if( (sender as Button)  == A1) //Fox, Racoon
+{
+    CountTracking.MyCount += 5;
+    await Shell.Current.GoToAsync(nameof(Views.Question2));
+}
+else if((sender as Button) == A2) //Cat
+{
+    CountTracking.MyCount += 2;
+    await Shell.Current.GoToAsync(nameof(Views.Question2));
+}
+else if ((sender as Button) == A3) //Dog
+{
+    CountTracking.MyCount += 3;
+    await Shell.Current.GoToAsync(nameof(Views.Question2));
+}
+else if ((sender as Button) == A4) //Bird
+{
+    CountTracking.MyCount += 0;
+    await Shell.Current.GoToAsync(nameof(Views.Question2));
+}
+else if ((sender as Button) == A5)
+{
+    CountTracking.MyCount += 10; //Badger
+    await Shell.Current.GoToAsync(nameof(Views.Question2));
+}
+else
+{
+    await Shell.Current.GoToAsync(nameof(Views.ResultError));
+}
+```
+
+Es war also ganz einfach mit den Operatoren == und as zu loesen.
