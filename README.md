@@ -21,7 +21,7 @@ Obwohl .NET MAUI plattformuebergreifend ist, habe ich mich aufgrund der Kuerze d
 
 Begonnen hat das Projekt mit Brainstorming an Tag 1. Fuer die Praesentation meiner Projektidee habe ich ein Moodboard erstellt, welches meine Inspirationen und Ideen darstellt.
 
-![Moodboard von BakemonoEgo](\Resources\Images\Moodboard.png)
+![Moodboard von BakemonoEgo](\BakemonoEgo\Resources\Images\Moodboard.png)
 
 Lorem Ipsum
 
