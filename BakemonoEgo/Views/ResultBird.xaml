@@ -16,14 +16,24 @@
             FontSize="72"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
+            Margin="20"
         />
 
         <Label 
-            Text="Lorem Ipsum"
+            Text="Humble, Reflective, Wistful "
             VerticalOptions="Center" 
             HorizontalOptions="Center"
-            Style="{StaticResource SubHeadline}"
+            FontSize = "30"
         />
-        
+
+        <Label
+            Text="Bird Spirits are careful and calculated. They yearn for freedom, but often feel like they're trapped in a cage sometimes. They might not know, but there's unlimited potential within them. Wether they're birds of prey or songbirds, their range is limitless. Will you spread your wings and fly?"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            FontSize="22"
+            Margin="20"
+        />
+
     </VerticalStackLayout>
 </ContentPage>

@@ -12,17 +12,27 @@
         />
 
         <Label 
-            Text="RACOON"
+            Text="RACCOON"
             FontSize="72"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
+            Margin="20"
         />
 
         <Label 
-            Text="Lorem Ipsum"
+            Text="Creative, Curious, Intelligent"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
-            Style="{StaticResource SubHeadline}"
-        />
+            FontSize = "30"
+/>
+
+        <Label
+            Text="Racoon Spirits are innovative and resourceful. They find good solutions to many problems. However, they also have a mischievous nature. A racoon spirit is playful but always aware of their surroundings. If they have to, they can and will bite. These spirits are clever - Someone else's garbage might be their treasure."
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            FontSize="22"
+            Margin="20"
+/>
     </VerticalStackLayout>
 </ContentPage>

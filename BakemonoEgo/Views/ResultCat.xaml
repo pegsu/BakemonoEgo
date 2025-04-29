@@ -16,13 +16,24 @@
             FontSize="72"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
+            Margin="20"
         />
 
         <Label 
-            Text="Lorem Ipsum"
+            Text="Sensitive, Charming, Mellow "
             VerticalOptions="Center" 
             HorizontalOptions="Center"
-            Style="{StaticResource SubHeadline}"
-          />
+            FontSize = "30"
+        />
+
+        <Label
+            Text="Cat Spirits are graceful and easygoing. They are natural charmers, but are also often charmed by pretty and pleasent things themselves. A cat spirit understands their environment and is good at reading people's emotions. Comfort is important to them. However, they're also ready for action - if they feel like it. "
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            FontSize="22"
+            Margin="20"
+        />
+        
     </VerticalStackLayout>
 </ContentPage>

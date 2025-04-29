@@ -16,13 +16,24 @@
             FontSize="72"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
+            Margin="20"
         />
 
         <Label 
-            Text="Lorem Ipsum"
+            Text="Rational, Captivating, Smart"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
-            Style="{StaticResource SubHeadline}"
-      />
+            FontSize = "30"
+        />
+
+        <Label
+            Text="Fox Spirits are curious but cautious. They are intelligent and find logical or creative solutions to problems with ease. Fox spirits are careful. They don't trust easily. A mysterious aura surrounds them, which can be alluring to the people around them. However, as charming as they are - they can bite if they have to."
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            FontSize="22"
+            Margin="20"
+        />
+        
     </VerticalStackLayout>
 </ContentPage>
