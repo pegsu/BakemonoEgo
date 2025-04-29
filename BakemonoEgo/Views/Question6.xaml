@@ -25,7 +25,7 @@
 
             <Button
                 x:Name="A2"
-                Text="The hight doesn’t scare me. I admire the cliffs." 
+                Text="The height doesn’t scare me. I admire the cliffs." 
                 SemanticProperties.Hint="Let's you navigate to the next question"
                 Clicked="NavigateToQuestion7_Clicked"
                 HorizontalOptions="Fill" />
