@@ -142,9 +142,10 @@ Und die "Question-Seiten" wie folgt:
 Zum Schluss habe ich die einzelnen Resultat-Seiten mit den Beschreibungen der "Animal Spirits" befuellt und die entsprechenden Grafiken eingefuegt.
 Ausserdem habe ich Skizzen als Placeholder in die "Question-Seiten" und eine .gif-Skizze auf der "Main-Seite" platziert.
 
-[Wald-Skizze](https://github.com/pegsu/BakemonoEgo/blob/main/BakemonoEgo/Resources/Images/forestplaceholder.png)
-[Spirit-Skizze](https://github.com/pegsu/BakemonoEgo/blob/main/BakemonoEgo/Resources/Images/morespritesplaceholder.png)
+![Wald-Skizze](https://github.com/pegsu/BakemonoEgo/blob/main/BakemonoEgo/Resources/Images/forestplaceholder.png)
+![Spirit-Skizze](https://github.com/pegsu/BakemonoEgo/blob/main/BakemonoEgo/Resources/Images/morespritesplaceholder.png)
 
+Am siebten Tag erfolgt die Praesentation meines Ergebnisses.
 
 ### Was ich in Zukunft anders machen wuerde:
 
